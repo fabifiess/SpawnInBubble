@@ -1,10 +1,12 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CubeVFX.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/ReceiveIngredient.cs">
     <Files>
-      <File FileName="Assets/scripts/CubeVFX.cs" Line="14" Column="27" />
-      <File FileName="Assets/scripts/SpawnParticles.cs" Line="17" Column="3" />
-      <File FileName="Assets/scripts/ReceiveIngredient.cs" Line="38" Column="40" />
+      <File FileName="Assets/scripts/Dragable.cs" Line="12" Column="2" />
+      <File FileName="Assets/scripts/CubeVFX.cs" Line="19" Column="2" />
+      <File FileName="Assets/scripts/SpawnParticles.cs" Line="25" Column="17" />
+      <File FileName="Assets/scripts/ReceiveIngredient.cs" Line="26" Column="58" />
+      <File FileName="Assets/scripts/ReceiveIngredientAndShake.cs" Line="32" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

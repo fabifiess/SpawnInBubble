@@ -22,8 +22,9 @@ public class ReceiveIngredient : MonoBehaviour {
 
 		if (instantiatedGO != null) Destroy (instantiatedGO);
 		if (bubble != null) Destroy (bubble);
-		instantiatedGO = Instantiate (thatGameObject, new Vector3 (0f ,6f ,0f), Quaternion.identity);
-		bubble = Instantiate (bubblePrefab, instantiatedGO.transform.position, Quaternion.identity);
+		Vector3 targetPos = new Vector3 (Random.Range (-5.0f, 5.0f), Random.Range (-0.0f, 10.0f), Random.Range (-5.0f, 5.0f));
+		instantiatedGO = Instantiate (thatGameObject, targetPos, Quaternion.identity);
+		bubble = Instantiate (bubblePrefab, targetPos, Quaternion.identity);
 		StartCoroutine (ParentIt ());
 
 	}

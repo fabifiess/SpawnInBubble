@@ -47,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\CubeVFX.cs" />
+     <Compile Include="Assets\scripts\DragManager.cs" />
+     <Compile Include="Assets\scripts\Dragable.cs" />
      <Compile Include="Assets\scripts\ReceiveIngredient.cs" />
+     <Compile Include="Assets\scripts\ReceiveIngredientAndShake.cs" />
      <Compile Include="Assets\scripts\SpawnParticles.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
